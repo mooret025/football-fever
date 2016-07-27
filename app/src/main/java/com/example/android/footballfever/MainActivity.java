@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     /**
-     ***********Home team***************
+     * **********Home team***************
      * Adds 6 points for the home team.
      */
 
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     ***********Away team***************
+     * **********Away team***************
      * Adds 6 points for the away team.
      */
 
@@ -80,7 +80,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     ************Displays***********
+     * Resets the scores for the home and away teams to zero
+     */
+
+    public void resetScoresToZero(View v) {
+        homeTeamScore = 0;
+        awayTeamScore = 0;
+        displayHomeTeam(homeTeamScore);
+        displayAwayTeam(awayTeamScore);
+    }
+
+    /**
+     * ***********Displays***********
      * Displays score for home team.
      */
 
@@ -98,4 +109,6 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
 
     }
+
+
 }

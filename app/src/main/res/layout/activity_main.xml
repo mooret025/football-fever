@@ -32,26 +32,26 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/touchdown"
-                android:onClick="addSixPointsForHome"/>
+                android:onClick="addSixPointsForHome"
+                android:text="@string/touchdown" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/extra_point"
-                android:onClick="addOnePointForHome"/>
+                android:onClick="addOnePointForHome"
+                android:text="@string/extra_point" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/two_pt_conversion"
-                android:onClick="addTwoPointsForHome"/>
+                android:onClick="addTwoPointsForHome"
+                android:text="@string/two_pt_conversion" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/field_goal"
-                android:onClick="addThreePointsForHome"/>
+                android:onClick="addThreePointsForHome"
+                android:text="@string/field_goal" />
 
         </LinearLayout>
 
@@ -77,26 +77,26 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/touchdown"
-                android:onClick="addSixPointsForAway"/>
+                android:onClick="addSixPointsForAway"
+                android:text="@string/touchdown" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/extra_point"
-                android:onClick="addOnePointForAway"/>
+                android:onClick="addOnePointForAway"
+                android:text="@string/extra_point" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/two_pt_conversion"
-                android:onClick="addTwoPointsForAway"/>
+                android:onClick="addTwoPointsForAway"
+                android:text="@string/two_pt_conversion" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/field_goal"
-                android:onClick="addThreePointsForAway"/>
+                android:onClick="addThreePointsForAway"
+                android:text="@string/field_goal" />
 
         </LinearLayout>
 
@@ -107,5 +107,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:onClick="resetScoresToZero"
         android:text="@string/reset" />
 </RelativeLayout>
