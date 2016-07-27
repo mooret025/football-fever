@@ -5,8 +5,7 @@
     <string name="touchdown">Touchdown</string>
     <string name="extra_point">Extra Point</string>
     <string name="field_goal">Field Goal</string>
-    <string name="safety">Safety</string>
-    <string name="two_pt_conversion">2-pt</string>
+    <string name="two_pt_conversion">2-pts</string>
     <string name="away_team">Away</string>
     <string name="away_team_score">0</string>
     <string name="reset">Reset</string>
